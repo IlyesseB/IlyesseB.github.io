@@ -1,33 +1,14 @@
-/* Réinitialiser les styles par défaut du navigateur */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+/* ... styles existants ... */
 
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-}
-
-header {
-    background-color: #333;
-    color: #fff;
+.qr-code-container {
+    display: inline-block;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
     text-align: center;
-    padding: 1rem;
-}
-
-h1 {
-    font-size: 24px;
-}
-
-main {
-    padding: 1rem;
-}
-
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1rem;
-}
+  }
+  
+  .qr-code-container > div {
+    margin-bottom: 1rem;
+  }
+  
